@@ -13,12 +13,8 @@ import org.testng.asserts.SoftAssert;
 import java.time.Duration;
 
 public class TestBase {
-    protected WebDriver driver;
+  public WebDriver driver;
 
-    public TestBase(WebDriver driver){
-        this.driver=driver;
-        PageFactory.initElements(driver,this);
-    }
     public static String browser = "Chrome";
     public static String base_url = "https://www.saucedemo.com/";
 

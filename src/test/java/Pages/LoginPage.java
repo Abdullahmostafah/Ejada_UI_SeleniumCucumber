@@ -8,6 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage extends TestBase {
 
+    public LoginPage(WebDriver driver){
+        PageFactory.initElements(driver,this);
+    }
     @FindBy (id = "user-name")
     WebElement usernameField;
 
@@ -16,11 +19,6 @@ public class LoginPage extends TestBase {
 
     @FindBy (id = "login-button")
     WebElement loginButton;
-
-
-    public LoginPage(WebDriver driver){
-     super(driver);
-    }
 
     public void openWebSite(){
         driver.get(base_url);
@@ -32,6 +30,5 @@ public class LoginPage extends TestBase {
         passwordField.sendKeys(password);
         loginButton.click();
     }
-
 
 }

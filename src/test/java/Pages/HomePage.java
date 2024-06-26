@@ -9,26 +9,24 @@ import org.openqa.selenium.support.ui.Select;
 
 public class HomePage extends TestBase {
 
+    public HomePage(WebDriver driver){
+        PageFactory.initElements(driver,this);
+    }
+
     @FindBy (css = ".title")
     public WebElement productLogo;
 
     @FindBy(className = "product_sort_container")
     WebElement sortingButton;
 
-
     @FindBy(xpath = "//button[@id='add-to-cart-sauce-labs-fleece-jacket']")
     WebElement firstHighestPrice;
-
 
     @FindBy(xpath = "//button[@id='add-to-cart-sauce-labs-backpack']")
     WebElement secondHighestPrice;
 
     @FindBy (className = "shopping_cart_link")
     WebElement shoppingCartLink;
-
-    public HomePage(WebDriver driver){
-        super(driver);
-    }
 
     public void sortingItems(){
         sortingButton.click();
@@ -39,8 +37,8 @@ public class HomePage extends TestBase {
     public void addTwoExpensiveItems(){
         firstHighestPrice.click();
         secondHighestPrice.click();
-
     }
+
     public void clickOnCartLinK(){
         shoppingCartLink.click();
     }
@@ -50,6 +48,5 @@ public class HomePage extends TestBase {
         softAssert.assertTrue(productLogoName.contains("Product"),"This is not the home Page");
         softAssert.assertAll();
     }
-
 
 }

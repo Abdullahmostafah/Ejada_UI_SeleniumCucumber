@@ -9,20 +9,17 @@ import org.openqa.selenium.support.PageFactory;
 public class CartPage extends TestBase {
 
     public CartPage(WebDriver driver){
-        super(driver);
+        PageFactory.initElements(driver,this);
     }
 
     @FindBy(xpath = "//*[text()='Sauce Labs Fleece Jacket']")
     WebElement firstItemInCart;
-
 
     @FindBy(xpath = "//*[text()='Sauce Labs Backpack']")
     WebElement secondItemInCart;
 
     @FindBy (xpath = "//button[@id='checkout']")
     WebElement checkOutButton;
-
-
 
     public void cartURLAssertion(){
         String cartURL = driver.getCurrentUrl();
@@ -49,12 +46,5 @@ public class CartPage extends TestBase {
         softAssert.assertTrue(checkOutURL.contains("https://www.saucedemo.com/checkout-step-one.html"),"Not a correct checkout URL");
         softAssert.assertAll();
     }
-
-
-
-
-
-
-
 
 }

@@ -7,8 +7,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class CheckoutPage extends TestBase {
+
     public CheckoutPage(WebDriver driver) {
-        super(driver);
+        PageFactory.initElements(driver,this);
     }
 
     @FindBy(xpath = "//input[@id='first-name']")
@@ -38,7 +39,6 @@ public class CheckoutPage extends TestBase {
     @FindBy (id = "finish")
     WebElement finishButton;
 
-
     public void checkOutData(String firstname, String lastname , String postalcode){
         firstNameField.sendKeys(firstname);
         lastNameField.sendKeys(lastname);
@@ -60,7 +60,6 @@ public class CheckoutPage extends TestBase {
         String totalPriceAmountValue = totalPriceAmount.getText();
         softAssert.assertTrue(totalPriceAmountValue.equals("79.88"),"Wrong Calculation");
         softAssert.assertAll();
-
     }
 
     public void overViewPageURLAssertion() {
@@ -68,7 +67,6 @@ public class CheckoutPage extends TestBase {
         softAssert.assertTrue(overViewPageURL.contains("https://www.saucedemo.com/checkout-step-two.html"), "Invalid URL");
         softAssert.assertAll();
     }
-
 
     public void clickOnFinishButton(){
         finishButton.click();
@@ -81,6 +79,5 @@ public class CheckoutPage extends TestBase {
         softAssert.assertTrue(dispatchingTextLabel.contains("Your order has been dispatched, and will arrive just as fast as the pony can get there!"),"Process not completed");
         softAssert.assertAll();
     }
-
 
 }

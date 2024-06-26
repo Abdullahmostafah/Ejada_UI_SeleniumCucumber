@@ -9,11 +9,10 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 
 
-public class LoginSteps  {
-    WebDriver driver;
+public class LoginSteps extends TestBase {
+
     LoginPage loginPage;
     HomePage homepage;
-
 
     @Given("User open the website URL")
     public void User_open_the_website_URL(){

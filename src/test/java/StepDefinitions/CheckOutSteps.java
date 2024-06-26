@@ -2,14 +2,14 @@ package StepDefinitions;
 
 import Pages.CartPage;
 import Pages.CheckoutPage;
+import TestBase.TestBase;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.WebDriver;
 
-public class CheckOutSteps {
-    private WebDriver driver;
+public class CheckOutSteps extends TestBase {
+
     CartPage cartPage;
     CheckoutPage checkoutPage;
 

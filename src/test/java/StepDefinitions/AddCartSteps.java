@@ -3,14 +3,15 @@ package StepDefinitions;
 import Pages.CartPage;
 import Pages.HomePage;
 
+import TestBase.TestBase;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 
-public class AddCartSteps {
-    WebDriver driver;
+public class AddCartSteps extends TestBase {
+
     HomePage homepage;
     CartPage cartPage;
 
