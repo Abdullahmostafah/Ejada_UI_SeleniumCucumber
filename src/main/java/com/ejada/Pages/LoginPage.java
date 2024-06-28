@@ -1,14 +1,13 @@
-package Pages;
+package com.ejada.Pages;
 
-import TestBase.TestBase;
-import org.openqa.selenium.WebDriver;
+import com.ejada.Base.TestBase;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage extends TestBase {
 
-    public LoginPage(WebDriver driver){
+    public LoginPage(){
         PageFactory.initElements(driver,this);
     }
     @FindBy (id = "user-name")
@@ -20,15 +19,22 @@ public class LoginPage extends TestBase {
     @FindBy (id = "login-button")
     WebElement loginButton;
 
-    public void openWebSite(){
-        driver.get(base_url);
-    }
+
+    @FindBy (xpath = "//h3[@data-test='error']")
+    WebElement errorValidationContent;
 
     //standard_user  //secret_sauce
     public void loginCredentials (String username , String password){
         usernameField.sendKeys(username);
         passwordField.sendKeys(password);
         loginButton.click();
+    }
+
+
+    public void loginAssertion(String validationMessage){
+        String errorMessages = errorValidationContent.getText();
+        softAssert.assertTrue(errorMessages.contains(validationMessage),"Validation Message Not Included");
+        softAssert.assertAll();
     }
 
 }

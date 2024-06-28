@@ -1,8 +1,8 @@
 package StepDefinitions;
 
-import Pages.CartPage;
-import Pages.CheckoutPage;
-import TestBase.TestBase;
+import com.ejada.Pages.CartPage;
+import com.ejada.Pages.CheckoutPage;
+import com.ejada.Base.TestBase;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -15,7 +15,7 @@ public class CheckOutSteps extends TestBase {
 
     @Given("User click on checkout button")
     public void User_click_on_checkout_button(){
-        cartPage = new CartPage(driver);
+        cartPage = new CartPage();
         cartPage.clickOnCheckOutButton();
     }
 
@@ -26,7 +26,7 @@ public class CheckOutSteps extends TestBase {
 
     @When("User fill the checkout form")
     public void User_fill_the_checkout_form(){
-        checkoutPage = new CheckoutPage(driver);
+        checkoutPage = new CheckoutPage();
         checkoutPage.checkOutData("Ahmed" , "Alaa" , "19522");
     }
 

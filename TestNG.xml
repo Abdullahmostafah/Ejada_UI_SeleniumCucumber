@@ -1,14 +1,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<!--Parallel Execution-->
+
 <suite name="Suite" parallel="tests" thread-count="4">
 
-    <listeners>
-        <listener class-name="TestBase.ExtentReportListener"/>
-    </listeners>
+
 
     <test name="UITest">
         <classes>
-            <class name="StepDefinitions.LoginSteps"/>
         </classes>
     </test>
 

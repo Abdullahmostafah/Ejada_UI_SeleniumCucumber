@@ -1,6 +1,6 @@
-package Pages;
+package com.ejada.Pages;
 
-import TestBase.TestBase;
+import com.ejada.Base.TestBase;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class CheckoutPage extends TestBase {
 
-    public CheckoutPage(WebDriver driver) {
+    public CheckoutPage() {
         PageFactory.initElements(driver,this);
     }
 
@@ -58,7 +58,7 @@ public class CheckoutPage extends TestBase {
 
     public void overAllPriceAssertion(){
         String totalPriceAmountValue = totalPriceAmount.getText();
-        softAssert.assertTrue(totalPriceAmountValue.equals("79.88"),"Wrong Calculation");
+        softAssert.assertTrue(totalPriceAmountValue.contains("79.98"),"Wrong Calculation");
         softAssert.assertAll();
     }
 

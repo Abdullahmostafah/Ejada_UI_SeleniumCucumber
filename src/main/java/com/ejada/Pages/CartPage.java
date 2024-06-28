@@ -1,6 +1,6 @@
-package Pages;
+package com.ejada.Pages;
 
-import TestBase.TestBase;
+import com.ejada.Base.TestBase;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class CartPage extends TestBase {
 
-    public CartPage(WebDriver driver){
+    public CartPage(){
         PageFactory.initElements(driver,this);
     }
 

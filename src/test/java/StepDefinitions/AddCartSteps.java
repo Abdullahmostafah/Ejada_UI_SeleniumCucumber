@@ -1,14 +1,13 @@
 package StepDefinitions;
 
-import Pages.CartPage;
-import Pages.HomePage;
+import com.ejada.Pages.CartPage;
+import com.ejada.Pages.HomePage;
 
-import TestBase.TestBase;
+import com.ejada.Base.TestBase;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.WebDriver;
 
 public class AddCartSteps extends TestBase {
 
@@ -18,7 +17,7 @@ public class AddCartSteps extends TestBase {
     @Given("User filter by Highest price")
     public void User_filter_by_Highest_price()
     {
-        homepage = new HomePage(driver);
+        homepage = new HomePage();
         homepage.sortingItems();
     }
     @When("User Add the most two expensive items")
@@ -33,9 +32,8 @@ public class AddCartSteps extends TestBase {
 
     @Then("Cart page is opened on the selected items")
     public void Cart_page_is_opened_on_the_selected_items(){
-        cartPage = new CartPage(driver);
+        cartPage = new CartPage();
         cartPage.cartURLAssertion();
         cartPage.itemInCartAssertion();
     }
-
 }

@@ -5,15 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dda2847a-3653-4b4c-bab2-a30590ac9bce" name="Changes" comment="Ejada UI Test #1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ejada/Properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/CheckoutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nonPOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ejada/Properties/nonPOM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/F01_InvalidLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/F01_InvalidLogin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/F02_ValidLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/F02_ValidLogin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/F03_AddToCart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/F03_AddToCart.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/F04_Checkout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/F04_Checkout.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ejada/Pages/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ejada/Pages/CheckoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ejada/Pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ejada/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/AddCartSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/AddCartSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/CheckOutSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/CheckOutSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestBase/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestBase/ExtentReportListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestBase/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ejada/Base/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,35 +51,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cucumber Java.Feature: F02_ValidLogin.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: User login using valid username and password (1).executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: User login using valid username and password.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.TestRunner.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ss.executor&quot;: &quot;Run&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/abdul/IdeaProjects/tests/src/test/java&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: F01_InvalidLogin.executor": "Run",
+    "Cucumber Java.Feature: F02_ValidLogin.executor": "Run",
+    "Cucumber Java.Scenario: Login with invalid credentials.executor": "Run",
+    "Cucumber Java.Scenario: User login using valid username and password (1).executor": "Run",
+    "Cucumber Java.Scenario: User login using valid username and password.executor": "Run",
+    "JUnit.TestRunner.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.TestRunner.executor": "Run",
+    "TestNG.ss.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/abdul/IdeaProjects/tests/src/test/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="TestRunners" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\abdul\IdeaProjects\tests\src\test\java\Pages" />
+      <recent name="C:\Users\abdul\IdeaProjects\tests\src\main\java\com\ejada\Properties" />
       <recent name="C:\Users\abdul\IdeaProjects\tests\src\test\java" />
+      <recent name="C:\Users\abdul\IdeaProjects\tests\src\test\java\Pages" />
       <recent name="C:\Users\abdul\IdeaProjects\tests\src\main\java" />
       <recent name="C:\Users\abdul\IdeaProjects\tests\src\test" />
-      <recent name="C:\Users\abdul\IdeaProjects\tests\src\main\java\org\example" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ejada.Properties" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Feature: F01_InvalidLogin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/F01_InvalidLogin.feature" />
+      <option name="GLUE" value="StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="tests" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: F01_InvalidLogin" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: F02_ValidLogin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/F02_ValidLogin.feature" />
@@ -88,15 +126,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User login using valid username and password (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Login with invalid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Features/F02_ValidLogin.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/F01_InvalidLogin.feature" />
       <option name="GLUE" value="StepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="tests" />
-      <option name="NAME_FILTER" value="^User login using valid username and password$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User login using valid username and password$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User login using valid username and password" />
+      <option name="NAME_FILTER" value="^Login with invalid credentials$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login with invalid credentials$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login with invalid credentials" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -143,30 +181,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StepDefinitions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestRunners" />
-      <option name="MAIN_CLASS_NAME" value="Runners.TestRunner" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Feature: F01_InvalidLogin" />
+        <item itemvalue="Cucumber Java.Scenario: Login with invalid credentials" />
         <item itemvalue="Cucumber Java.Scenario: User login using valid username and password" />
         <item itemvalue="Cucumber Java.Feature: F02_ValidLogin" />
-        <item itemvalue="TestNG.TestRunner" />
-        <item itemvalue="Cucumber Java.Scenario: User login using valid username and password (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -193,5 +214,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ejada UI Test #1" />
     <option name="LAST_COMMIT_MESSAGE" value="Ejada UI Test #1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Runners/TestRunner.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

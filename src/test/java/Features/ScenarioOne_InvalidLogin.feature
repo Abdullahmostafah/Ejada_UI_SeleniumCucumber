@@ -1,9 +1,10 @@
+@Sanity
 Feature: Invalid Login
 
   Scenario Outline: Login with invalid credentials
-    Given Open Browser on the login Page
-    When login with username "<username>" and password "<password>"
-    Then Error message should be appear : error message "<message>"
+    Given User open the website URL
+    When User Enter username "<username>" and password "<password>" and click on login button
+    Then Error message should be appear error message "<message>"
 
     Examples:
       | username | password   | message                                  |

@@ -1,6 +1,6 @@
-package Pages;
+package com.ejada.Pages;
 
-import TestBase.TestBase;
+import com.ejada.Base.TestBase;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class HomePage extends TestBase {
 
-    public HomePage(WebDriver driver){
+    public HomePage(){
         PageFactory.initElements(driver,this);
     }
 
