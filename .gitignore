@@ -7,7 +7,7 @@
 ###   Allow essential project files       ###
 #############################################
 !pom.xml
-!testng.xml
+!TestNG.xml
 !mvnw
 !mvnw.bat
 !allure-wrapper.bat
