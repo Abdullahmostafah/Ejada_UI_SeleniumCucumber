@@ -1,21 +1,22 @@
 #############################################
 ###   Ignore everything by default         ###
 #############################################
-*
-
+/*
+!/.gitignore
+!/pom.xml
+!/TestNG.xml
+!/mvnw
+!/mvnw.bat
+!/allure-wrapper.bat
 #############################################
 ###   Allow essential project files       ###
 #############################################
-!pom.xml
-!TestNG.xml
-!mvnw
-!mvnw.bat
-!allure-wrapper.bat
-!src/main/java/**
-!src/main/resources/**
-!src/test/java/**
-!src/test/resources/**
-!src/test/resources/extent.properties
+!/src/
+!/src/**
+!/src/main/
+!/src/main/**
+!/src/test/
+!/src/test/**
 
 #############################################
 ###           Ignore IDE Configs          ###
