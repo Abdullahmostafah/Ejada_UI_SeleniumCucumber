@@ -4,36 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dda2847a-3653-4b4c-bab2-a30590ac9bce" name="Changes" comment="Ejada UI Test #1">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid15240.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid16256.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid20072.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid20204.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid20488.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid22584.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid25112.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid6208.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid8668.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ejada/Base/TestBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ejada/Pages/CartPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ejada/Pages/CheckoutPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ejada/Pages/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ejada/Pages/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ejada/Properties/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ejada/Properties/nonPOM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/ScenarioOne_InvalidLogin.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/ScenarioTwo_ValidLogin.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/TestRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/AddCartSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/AddCartSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/CheckOutSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/CheckOutSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/LoginSteps.java" afterDir="false" />
-    </list>
+    <list default="true" id="dda2847a-3653-4b4c-bab2-a30590ac9bce" name="Changes" comment="Update the dependency and code structure and add report with screenshots" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -228,11 +199,20 @@
       <option name="project" value="LOCAL" />
       <updated>1719430748286</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update the dependency and code structure and add report with screenshots">
+      <option name="closed" value="true" />
+      <created>1753353656984</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753353656984</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ejada UI Test #1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejada UI Test #1" />
+    <MESSAGE value="Update the dependency and code structure and add report with screenshots" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the dependency and code structure and add report with screenshots" />
   </component>
 </project>
